@@ -1,0 +1,24 @@
+img {
+  max-width: 100%;
+  border-radius: 1px;
+}
+.img-raised {
+  box-shadow: $box-shadow-raised;
+  border-radius: 12px;
+}
+.img-container-raised:hover .img-raised {
+  box-shadow: none;
+  filter: brightness(70%);
+  //opacity: 0.7;
+}
+
+.button-product {
+  display: none;
+}
+.img-container-raised:hover .button-product {
+  display: inline;
+}
+
+.img-container-raised:focus .button-product {
+  display: inline;
+}
